@@ -1,0 +1,13 @@
+{application, pubsub,
+ [{description, "Message bus"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+  {licenses, []},
+  {links, []}
+ ]}.
